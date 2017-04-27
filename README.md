@@ -25,6 +25,7 @@ Your challenge is to render this layout design as a fully functional web page us
 *	Only jQuery & native code can be used to write the javascript for this page. 
 * Plugins **can not** be used to build the tabs and modal.
 *	Rate table must be built out by consuming provided JSON file.
+* Bonus points for the page being responsive.
 
 ### Submitting Your Completed Challenge
 

@@ -21,13 +21,14 @@ Your challenge is to render this layout design as a fully functional web page us
 
 ### Technical Guidelines
 
-*	Links on page can have “#” as their href.
-*	Only jQuery & native JavaScript can be used to construct the page. No plugins **can not** be used to build the tabs and modal.
+*	Anchors on the page can just have “#” as their href.
+*	Only jQuery & native code can be used to write the javascript for this page. 
+* Plugins **can not** be used to build the tabs and modal.
 *	Rate table must be built out by consuming provided JSON file.
 
 ### Submitting Your Completed Challenge
 
-Reply to the sender of this challenge with the Github (or other preferred SCM) link to your repository containing your finalized assets. The deadline date/time for this challenge should have accompanied these instructions. If not, please respond to the sender of this challenge to inquire.
+Reply to the sender of this challenge with a link to your Github (or other preferred SCM) repository containing your finalized assets. The deadline date/time for this challenge should have accompanied these instructions. If not, please respond to the sender of this challenge to inquire.
 
-Good luck, give it your best, and we look forward to seeing what you can do!
+Good luck, give it your best, and we look forward to seeing your work!
 

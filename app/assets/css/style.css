@@ -1,0 +1,29 @@
+/*Navbar Styling*/
+a.navbar-brand {
+  font-size: 2em;
+}
+
+.navbar-default .navbar-brand {
+  color: #1c264a;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: #1c264a;
+}
+
+.navbar-default {
+  background-color: #318fc2;
+}
+
+ul.nav.navbar-nav.navbar-right > li > a {
+  color: white;
+}
+
+.navbar-default .navbar-nav>.active>a {
+  background-color: #006999;
+}
+
+.navbar-default .navbar-nav>.active>a:hover {
+  background-color: #006999;
+  color: white;
+}

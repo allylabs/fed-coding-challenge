@@ -27,3 +27,51 @@ ul.nav.navbar-nav.navbar-right > li > a {
   background-color: #006999;
   color: white;
 }
+
+/*Footer Styling*/
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100px;
+  background-color: #ddd;
+}
+
+ul.nav.navbar-nav.navbar-right.footer-text > li > a {
+  color: #7db1c7;
+}
+
+ul.nav.navbar-nav.navbar-right.footer-text > li > a.bold {
+  color: #7db1c7;
+  font-weight: bold;
+}
+
+ul.nav.navbar-nav.navbar-right.footer-text > li > a:hover {
+  color: #7db1c7;
+  background-color: #ddd;
+}
+
+ul.nav.navbar-nav.navbar-right.footer-text > li > a:focus {
+  color: #7db1c7;
+  background-color: #ddd;
+}
+
+ul.nav.navbar-nav.navbar-left.footer-text > li > a {
+  color: #7db1c7;
+}
+
+ul.nav.navbar-nav.navbar-left.footer-text > li > a.bold {
+  color: #7db1c7;
+  font-weight: bold;
+}
+
+ul.nav.navbar-nav.navbar-left.footer-text > li > a:hover {
+  color: #7db1c7;
+  background-color: #ddd;
+}
+
+ul.nav.navbar-nav.navbar-left.footer-text > li > a:focus {
+  color: #7db1c7;
+  background-color: #ddd;
+}

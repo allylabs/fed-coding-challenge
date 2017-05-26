@@ -18,37 +18,71 @@
   </head>
   <body>
 
-    <nav class="navbar navbar-default">
+    <div class="wrapper"> <!--wrapper for flexible footer -->
+      <nav class="navbar navbar-default">
+
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">URBANK</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">home</a></li>
+              <li><a href="#">employee</a></li>
+              <li class="active"><a href="#">company <span class="sr-only">(current)</span></a></li>
+              <li><a href="#">services</a></li>
+              <li><a class="last-a" href="#">contact</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div> <!-- /.container -->
+
+      </nav>
 
       <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">URBANK</a>
+        <div class="col-md-9">
+          <div class="row">
+            <h1 class="heading">Best Bank Ever!</h1>
+
+            <p>Cras fringilla egestas neque, vitae facilisis neque venenatis a. Aenean ex diam, interdum at volutpat sed, ultricies vitae diam. Curabitur ac ornare metus. Etiam imperdiet sodales magna, sed imperdiet dolor consequat in. Fusce convallis pharetra nisi. Fusce dictum turpis turpis, vel dictum urna feugiat eu. Ut ut nibh volutpat, congue purus at, bibendum orci.</p>
+
+            <p><strong>Reasons We're Awesome:</strong></p>
+
+            <ul class="awesome-list">
+              <li>Lorem ipsum dolor sit amet.</li>
+              <li>Consectetur adipiscing elit.</li>
+              <li>Lorem ipsum dolor sit amet.</li>
+              <li>Lorem ipsum dolor sit amet.</li>
+              <li>Consectetur adipiscing elit.</li>
+            </ul> <!-- /.awesome-list -->
+
+            <div class="mobile-box">
+              <p><strong>Amazing Mobile Info</strong></p>
+              <p>Cras fringilla egestas neque, vitae facilisis neque venenatis a. Aenean ex diam, interdum at volutpat sed, ultricies vitae diam. Curabitur ac ornare metus. Etiam imperdiet sodales magna, sed imperdiet dolor consequat.</p>
+            </div> <!-- /.mobile-box -->
+
+          </div> <!-- /.row -->
+
+        </div> <!-- /.col -->
+
+        <div class="col-md-3">
+          <div class="row">
+            <div class="login">
+              <p>Login</p>
+            </div>
+          </div>
         </div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">home</a></li>
-            <li><a href="#">employee</a></li>
-            <li class="active"><a href="#">company <span class="sr-only">(current)</span></a></li>
-            <li><a href="#">services</a></li>
-            <li><a href="#">contact</a></li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
       </div> <!-- /.container -->
-
-    </nav>
-
-    <div class="container">
-      <h2>testing</h2>
-    </div>
+    </div> <!-- /wrapper -->
 
     <footer class="footer">
 

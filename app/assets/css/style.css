@@ -1,3 +1,17 @@
+/*Style for flexible footer*/
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  flex: 1 0 auto;
+}
+
 /*Navbar Styling*/
 a.navbar-brand {
   font-size: 2em;
@@ -19,22 +33,55 @@ ul.nav.navbar-nav.navbar-right > li > a {
   color: white;
 }
 
-.navbar-default .navbar-nav>.active>a {
+.nav > li > a.last-a {
+  padding-right: 0;
+}
+
+.navbar-default .navbar-nav > .active> a {
   background-color: #006999;
 }
 
-.navbar-default .navbar-nav>.active>a:hover {
+.navbar-default .navbar-nav > .active > a:hover {
   background-color: #006999;
   color: white;
 }
 
+/*Body Styles*/
+.heading {
+  font-weight: 400;
+  color: #640360;
+  margin-bottom: 15px;
+}
+
+ul.awesome-list {
+  list-style-type: disc;
+  padding-left: 18px;
+}
+
+.mobile-box {
+  background-color: #b8d6c2;
+  padding: 18px;
+}
+
+.mobile-box > p > strong {
+  color: #640360;
+}
+
+.login > p {
+  margin: 20px 0 15px 0;
+  line-height: 33px;
+  background-color: #640360;
+  color: white;
+  text-align: center;
+}
+
 /*Footer Styling*/
 .footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  height: 100px;
+  min-height: 100px;
+  background-color: #ddd;
+}
+
+.footer > .container {
   background-color: #ddd;
 }
 

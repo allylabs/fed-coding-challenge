@@ -156,6 +156,67 @@ p.tab-header {
   color: #499ac4;
 }
 
+.rates-div {
+  display: inline-block;
+  border-right: 1px solid lightgrey;
+  margin-top: 10px;
+  padding-right: 10px;
+}
+
+.rates-div > h2 {
+  margin-top: 10px;
+  font-weight: 200;
+}
+
+.rates-adjacent {
+  display: inline;
+  font-weight: 300;
+  padding-left: 4px;
+}
+
+.table-container {
+  margin-right: 18px;
+}
+
+/*Will no longer need margin when elements are stacked*/
+@media only screen and (max-width: 992px) {
+  .table-container {
+    margin-right: 0;
+  }
+}
+
+.table-borderless > tbody > tr > td,
+.table-borderless > tbody > tr > th,
+.table-borderless > tfoot > tr > td,
+.table-borderless > tfoot > tr > th,
+.table-borderless > thead > tr > td,
+.table-borderless > thead > tr > th {
+    border: none;
+}
+
+tbody > tr:nth-child(even) {
+  background-color: #eef5ee;
+}
+
+tbody > tr:nth-child(odd) {
+  background-color: #deebe1;
+}
+
+tbody > tr:first-child {
+  background-color: white;
+  font-weight: lighter;
+}
+
+tbody > tr:nth-child(2) {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+tbody > tr:last-child {
+  background-color: white;
+  font-weight: lighter;
+}
+
 /*Footer Styling*/
 .footer {
   min-height: 100px;

@@ -67,7 +67,7 @@
             <div class="mobile-box">
               <div class="row mobile">
                 <div class="col-md-12">
-                  <p><strong>Amazing Mobile Info</strong></p>
+                  <p><strong class="purple">Amazing Mobile Info</strong></p>
                   <p>Cras fringilla egestas neque, vitae facilisis neque venenatis a. Aenean ex diam, interdum at volutpat sed, ultricies vitae diam. Curabitur ac ornare metus. Etiam imperdiet sodales magna, sed imperdiet dolor.</p>
                 </div>
               </div>
@@ -101,9 +101,45 @@
 
         <div class="col-md-3">
           <div class="row">
-            <div class="login">
+            <div class="login" id="login-button" data-toggle="modal" data-target="#loginModal">
               <p>Login</p>
             </div> <!-- /.login -->
+
+            <!-- Modal -->
+            <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h2 class="modal-title" id="myModalLabel">Sign In To Your Account</h2>
+                  </div>
+                  <div class="modal-body">
+                    <form class="form-horizontal">
+                      <div class="form-group">
+                        <label for="username" class="col-sm-2 control-label">Username</label>
+                        <div class="col-sm-10">
+                          <input type="text" class="form-control" id="username">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="password" class="col-sm-2 control-label">Password</label>
+                        <div class="col-sm-10">
+                          <input type="password" class="form-control" id="password" placeholder="Password">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="col-sm-offset-8 col-sm-4">
+                          <div class="login" id="login-button" data-toggle="modal" data-target="#loginModal">
+                            <p>Login</p>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div> <!-- /.modal -->
+
           </div> <!-- /.row -->
           <div class="row">
             <div>

@@ -47,6 +47,15 @@ ul.nav.navbar-nav.navbar-right > li > a {
   color: white;
 }
 
+.navbar-default .navbar-nav > .active > a:focus {
+  background-color: #006999;
+  color: white;
+}
+
+div#bs-example-navbar-collapse-1.navbar-collapse.collapse.in {
+  border-color: transparent;
+}
+
 /*Body Styles*/
 .heading {
   font-weight: 400;
@@ -79,6 +88,10 @@ ul.awesome-list {
 
 .mobile-box > .mobile {
   width: 85%;
+}
+
+.purple {
+  color: #640630;
 }
 
 /*Helps to keep mobile phone image responsive*/
@@ -185,6 +198,10 @@ p.tab-header {
   }
 }
 
+.table {
+  margin-bottom: 40px;
+}
+
 .table-borderless > tbody > tr > td,
 .table-borderless > tbody > tr > th,
 .table-borderless > tfoot > tr > td,
@@ -215,6 +232,22 @@ tbody > tr:nth-child(2) {
 tbody > tr:last-child {
   background-color: white;
   font-weight: lighter;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+h2#myModalLabel.modal-title {
+  font-weight: 400;
+}
+
+button.close > span {
+  color: #3990bd;
+}
+
+div.modal-dialog {
+  margin-top: 15%;
 }
 
 /*Footer Styling*/

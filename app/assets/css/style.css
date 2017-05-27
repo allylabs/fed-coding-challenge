@@ -61,10 +61,35 @@ ul.awesome-list {
 .mobile-box {
   background-color: #b8d6c2;
   padding: 18px;
+  position: relative;
 }
 
 .mobile-box > p > strong {
   color: #640360;
+}
+
+.mobile-box > .mobile {
+  width: 85%;
+}
+
+@media only screen and (max-width: 768px) {
+  .mobile-box > .mobile {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .mobile-box > .mobile {
+    width: 70%;
+  }
+}
+
+.mobile-image {
+  position: absolute;
+  display: block;
+  max-width: 100%;
+  bottom: 13px;
+  right: 30px;
 }
 
 .login > p {

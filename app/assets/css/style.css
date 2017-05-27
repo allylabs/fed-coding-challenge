@@ -1,6 +1,7 @@
 /*Style for flexible footer*/
 html, body {
   height: 100%;
+  box-sizing: border-box;
 }
 
 body {
@@ -62,6 +63,14 @@ ul.awesome-list {
   background-color: #b8d6c2;
   padding: 18px;
   position: relative;
+  margin-right: 18px;
+}
+
+/*Will no longer need margin when elements are stacked*/
+@media only screen and (max-width: 992px) {
+  .mobile-box {
+    margin-right: 0;
+  }
 }
 
 .mobile-box > p > strong {
@@ -72,6 +81,7 @@ ul.awesome-list {
   width: 85%;
 }
 
+/*Helps to keep mobile phone image responsive*/
 @media only screen and (max-width: 768px) {
   .mobile-box > .mobile {
     width: 75%;
@@ -98,6 +108,52 @@ ul.awesome-list {
   background-color: #640360;
   color: white;
   text-align: center;
+}
+
+div.tab-content {
+  background-color: whitesmoke;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+  background-color: whitesmoke;
+  padding-bottom: 5px;
+  padding-top: 15px;
+  line-height: 1.428571;
+  bottom: 0;
+}
+
+.nav-tabs > li > a {
+  bottom: -9px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: -1px;
+  border: 1px solid lightgray;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+  background-color: #deebe1;
+}
+
+div#news.tab-pane.active > p {
+  padding-left: 10px;
+}
+
+div#news.tab-pane.active > p:last-child {
+  padding-bottom: 25px;
+}
+
+div#archive.tab-pane.active > p {
+  padding-left: 10px;
+}
+
+div#archive.tab-pane.active > p:last-child {
+  padding-bottom: 25px;
+}
+
+p.tab-header {
+  padding-top: 15px;
+  font-weight: bold;
+  color: #499ac4;
 }
 
 /*Footer Styling*/

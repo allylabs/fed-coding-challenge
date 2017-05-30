@@ -1,6 +1,11 @@
 $( document ).ready(function() {
   console.log('document ready!');
 
+  $('a').on('click', function(event){
+    // event.preventDefault();
+    console.log('clicked an a');
+  });
+
   //Closure to keep things out of global scope
   (function(){
     console.log('I ran');

@@ -15,7 +15,7 @@ The principles, concepts, and philosophies of development that we value most and
 
 ### The Challenge
 
-This repository contains a PSD including all page-states as well as accompanying JPG’s to illustrate how the page should look upon completion. 
+This repository contains a PSD including all page-states as well as [accompanying comps](https://github.com/allylabs/fed-coding-challenge/tree/public/assets/comps) to illustrate how the page should look upon completion. We've also included [assets from the PSD](https://github.com/allylabs/fed-coding-challenge/tree/public/assets/img) in case you don't have Photoshop.
 
 Your challenge is to render this layout design as a fully functional web page using HTML, CSS, and JavaScript. Your page should render perfectly in (at minimum) Chrome, Firefix and IE 9+.
 

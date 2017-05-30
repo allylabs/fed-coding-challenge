@@ -1,0 +1,371 @@
+/*Style for flexible footer*/
+html, body {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  flex: 1 0 auto;
+}
+
+/*Navbar Styling*/
+a.navbar-brand {
+  font-size: 2em;
+}
+
+.navbar-default .navbar-brand {
+  color: #1c264a;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: #1c264a;
+}
+
+.navbar-default {
+  background-color: #318fc2;
+}
+
+ul.nav.navbar-nav.navbar-right > li > a {
+  color: white;
+}
+
+.nav > li > a.last-a {
+  padding-right: 0;
+}
+
+.navbar-default .navbar-nav > .active> a {
+  background-color: #006999;
+}
+
+.navbar-default .navbar-nav > .active > a:hover {
+  background-color: #006999;
+  color: white;
+}
+
+.navbar-default .navbar-nav > .active > a:focus {
+  background-color: #006999;
+  color: white;
+}
+
+div#bs-example-navbar-collapse-1.navbar-collapse.collapse.in {
+  border-color: transparent;
+}
+
+/*Body Styles*/
+.heading {
+  font-weight: 400;
+  color: #640360;
+  margin-bottom: 15px;
+}
+
+ul.awesome-list {
+  list-style-type: disc;
+  padding-left: 18px;
+}
+
+.mobile-box {
+  background-color: #b8d6c2;
+  padding: 18px;
+  position: relative;
+  margin-right: 18px;
+}
+
+/*Will no longer need margin when elements are stacked*/
+@media only screen and (max-width: 992px) {
+  .mobile-box {
+    margin-right: 0;
+  }
+}
+
+.mobile-box > p > strong {
+  color: #640360;
+}
+
+.mobile-box > .mobile {
+  width: 85%;
+}
+
+.purple {
+  color: #640630;
+}
+
+/*Helps to keep mobile phone image responsive*/
+@media only screen and (max-width: 768px) {
+  .mobile-box > .mobile {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .mobile-box > .mobile {
+    width: 70%;
+  }
+}
+
+.mobile-image {
+  position: absolute;
+  display: block;
+  max-width: 100%;
+  bottom: 13px;
+  right: 30px;
+}
+
+div.login {
+  margin: 20px 0 15px 0;
+  line-height: 33px;
+  background-color: #640360;
+  color: white;
+  text-align: center;
+}
+
+div.login > a {
+  text-decoration: none;
+  color: white;
+}
+
+
+div.tab-content {
+  background-color: whitesmoke;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+  background-color: whitesmoke;
+  padding-bottom: 5px;
+  padding-top: 15px;
+  line-height: 1.428571;
+  bottom: 0;
+}
+
+.nav-tabs > li > a {
+  bottom: -9px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: -1px;
+  border: 1px solid lightgray;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+  background-color: #deebe1;
+}
+
+div#news.tab-pane.active > p {
+  padding-left: 10px;
+}
+
+div#news.tab-pane.active > p:last-child {
+  padding-bottom: 25px;
+}
+
+div#archive.tab-pane.active > p {
+  padding-left: 10px;
+}
+
+div#archive.tab-pane.active > p:last-child {
+  padding-bottom: 25px;
+}
+
+p.tab-header {
+  padding-top: 15px;
+  font-weight: bold;
+  color: #499ac4;
+}
+
+.rates-div {
+  display: inline-block;
+  border-right: 1px solid lightgrey;
+  margin-top: 10px;
+  padding-right: 10px;
+}
+
+.rates-div > h2 {
+  margin-top: 10px;
+  font-weight: 200;
+}
+
+.rates-adjacent {
+  display: inline;
+  font-weight: 300;
+  padding-left: 4px;
+}
+
+.table-container {
+  margin-right: 18px;
+}
+
+/*Will no longer need margin when elements are stacked*/
+@media only screen and (max-width: 992px) {
+  .table-container {
+    margin-right: 0;
+  }
+}
+
+.table {
+  margin-bottom: 40px;
+}
+
+.table-borderless > tbody > tr > td,
+.table-borderless > tbody > tr > th,
+.table-borderless > tfoot > tr > td,
+.table-borderless > tfoot > tr > th,
+.table-borderless > thead > tr > td,
+.table-borderless > thead > tr > th {
+    border: none;
+}
+
+tbody > tr:nth-child(even) {
+  background-color: #eef5ee;
+}
+
+tbody > tr:nth-child(odd) {
+  background-color: #deebe1;
+}
+
+tbody > tr:first-child {
+  background-color: white;
+  font-weight: lighter;
+}
+
+tbody > tr:nth-child(2) {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+tbody > tr:last-child {
+  background-color: white;
+  font-weight: lighter;
+}
+
+/*modal styling*/
+#loginModal {
+  left: 24%;
+  opacity: 0;
+  position: absolute;
+  visibility: hidden;
+  width: 50%;
+  box-shadow: 0 3px 7px rgba(0,0,0,.25);
+  box-sizing: border-box;
+  /*transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out*/
+}
+
+#loginModal:target {
+  opacity: 1;
+  top: 50%;
+  visibility: visible;
+}
+
+#loginModal .modal-header {
+  border-radius: 5px 5px 0 0
+}
+
+#loginModal h2 {
+  margin: 0;
+  color: black;
+}
+
+#loginModal .modal-body, #loginModal .header {
+  padding: 10px;
+  color: black;
+}
+
+.modal-content {
+  background: white;
+  position: relative;
+  z-index: 20;
+  border-radius: 5px;
+  color: black;
+}
+
+#loginModal .modal-body {
+  background: white;
+}
+
+#loginModal .overlay {
+  background-color: #000;
+  background: rgba(0,0,0,.8);
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10
+}
+
+.moda-body a {
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #E74C3C;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+h2#myModalLabel.modal-title {
+  font-weight: 400;
+}
+
+button.close > span {
+  color: #3990bd;
+}
+
+div.modal-dialog {
+  margin-top: 15%;
+}
+
+/*Footer Styling*/
+.footer {
+  min-height: 100px;
+  background-color: #ddd;
+}
+
+.footer > .container {
+  background-color: #ddd;
+}
+
+ul.nav.navbar-nav.navbar-right.footer-text > li > a {
+  color: #7db1c7;
+}
+
+ul.nav.navbar-nav.navbar-right.footer-text > li > a.bold {
+  color: #7db1c7;
+  font-weight: bold;
+}
+
+ul.nav.navbar-nav.navbar-right.footer-text > li > a:hover {
+  color: #7db1c7;
+  background-color: #ddd;
+}
+
+ul.nav.navbar-nav.navbar-right.footer-text > li > a:focus {
+  color: #7db1c7;
+  background-color: #ddd;
+}
+
+ul.nav.navbar-nav.navbar-left.footer-text > li > a {
+  color: #7db1c7;
+}
+
+ul.nav.navbar-nav.navbar-left.footer-text > li > a.bold {
+  color: #7db1c7;
+  font-weight: bold;
+}
+
+ul.nav.navbar-nav.navbar-left.footer-text > li > a:hover {
+  color: #7db1c7;
+  background-color: #ddd;
+}
+
+ul.nav.navbar-nav.navbar-left.footer-text > li > a:focus {
+  color: #7db1c7;
+  background-color: #ddd;
+}

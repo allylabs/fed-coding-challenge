@@ -5,14 +5,14 @@
     "earnings": 376.41
   },
   {
-    "name": "URBank",
-    "apy": 0.87,
-    "earnings": 436.89
-  },
-  {
     "name": "Dewey, Cheatam & Howe",
     "apy": 0.01,
     "earnings": 5.00
+  },
+  {
+    "name": "URBank",
+    "apy": 0.87,
+    "earnings": 436.89
   },
   {
     "name": "First Onion",

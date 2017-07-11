@@ -22,10 +22,11 @@ Your challenge is to render this layout design as a fully functional web page us
 ### Technical Guidelines
 
 *	Anchors on the page can just have “#” as their href.
-*	Only jQuery & native code can be used to write the javascript for this page. 
-* Plugins **can not** be used to build the tabs and modal.
-*	Rate table must be built out by consuming provided JSON file.
-* Bonus points for the page being responsive.
+*	Only jQuery & vanilla javascript allowed (no plugins).
+* No CSS libraries/frameworks may be used, however CSS (pre)processors like Sass are welcome for compiling your own css.
+*	Rate table must be built-out and ordered correctly by consuming provided JSON file.
+* Page should be responsive.
+* Bonus-points for accessibility!
 
 ### Submitting Your Completed Challenge
 

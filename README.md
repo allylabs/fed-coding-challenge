@@ -19,10 +19,10 @@ This repository contains a PSD including all page-states as well as [accompanyin
 
 Your challenge is to render this layout design as a fully functional web page using HTML, CSS, and JavaScript. Your page should render perfectly in (at minimum) Chrome, Firefix and IE 9+.
 
-### Technical Guidelines
+### Technical Requirements
 
-*	Anchors on the page can just have “#” as their href.
-*	Only jQuery & vanilla javascript allowed (no plugins).
+* Anchors on the page can just have “#” as their href.
+* Only jQuery & vanilla javascript allowed (no plugins).
 * No CSS libraries/frameworks may be used, however CSS (pre)processors like Sass are welcome for compiling your own css.
 *	Rate table must be built-out and ordered correctly by consuming provided JSON file.
 * Page should be responsive.

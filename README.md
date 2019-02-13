@@ -8,7 +8,8 @@ In the UX Development Team here at Ally, we’re looking to hire developers who 
 
 The principles, concepts, and philosophies of development that we value most and that you need to take into account in your submission are:
 
-*	Web Standards
+*	Reusability
+* Web Standards
 *	Semantic Markup
 *	Performance
 *	Accessibility
@@ -21,16 +22,17 @@ Your challenge is to render this layout design as a fully functional web page us
 
 ### Technical Requirements
 
+* Page should be approached from a component based mentality. Extra points will be given if the page is organized in a way some components may be reusable.
 * Anchors on the page can just have “#” as their href.
 * Only jQuery & vanilla javascript allowed (no plugins).
-* No CSS libraries/frameworks may be used, however CSS (pre)processors like Sass are welcome for compiling your own css.
+* No CSS libraries/frameworks may be used, however Babel and CSS (pre)processors like Sass are welcome for compiling your own CSS/ES6.
 *	Rate table must be built-out and ordered correctly by consuming provided JSON file.
 * Page should be responsive.
-* Bonus-points for accessibility!
+* Ensure that all code meets current a11y(Accessibility Standards)
 
 ### Submitting Your Completed Challenge
 
-Reply to the sender of this challenge with a link to your Github (or other preferred SCM) repository containing your finalized assets. The deadline date/time for this challenge should have accompanied these instructions. If not, please respond to the sender of this challenge to inquire.
+Reply to the sender of this challenge with a link to your Github repository containing your finalized assets. The deadline date/time for this challenge should have accompanied these instructions. If not, please respond to the sender of this challenge to inquire.
 
 Good luck, give it your best, and we look forward to seeing your work!
 

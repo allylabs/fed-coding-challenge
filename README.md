@@ -22,7 +22,7 @@ Your challenge is to render this layout design as a fully functional web page us
 
 ### Technical Requirements
 
-* Page should be approached from a component based mentality. Extra points will be given if the page is organized in a way some components may be reusable.
+* Page should be approached from a component based mentality. JavaScript/CSS/HTML should be organized in a way that some components would be reusable if other pages are created.
 * Anchors on the page can just have “#” as their href.
 * Only jQuery & vanilla javascript allowed (no plugins).
 * No CSS libraries/frameworks may be used, however Babel and CSS (pre)processors like Sass are welcome for compiling your own CSS/ES6.

@@ -25,7 +25,7 @@ Your challenge is to render this layout design as a fully functional web page us
 * Page should be approached from a component based mentality. JavaScript/CSS/HTML should be organized in a way that some components would be reusable if other pages are created.
 * Anchors on the page can just have “#” as their href.
 * Only jQuery & vanilla javascript allowed (no plugins).
-* No CSS libraries/frameworks may be used, however Babel and CSS (pre)processors like Sass are welcome for compiling your own CSS/ES6.
+* CSS libraries/frameworks may be used for grids only. They cannot be used for the tabs or modal. Babel and CSS (pre)processors like Sass are welcome for compiling your own CSS/ES6.
 *	Rate table must be built-out and ordered correctly by consuming provided JSON file.
 * Page should be responsive.
 * Ensure that all code meets current a11y(Accessibility Standards)
